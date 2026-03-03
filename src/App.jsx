@@ -111,7 +111,7 @@ function DesktopIcon({ icon, initialPosPct, onOpen }) {
   const onClick = () => {
     if (hasDragged.current) return;
     if (icon.id === "linkedin") { window.open("https://www.linkedin.com/in/della-lee/", "_blank"); return; }
-    if (icon.id === "email") { window.open("mailto:dellahlee3@gmail.com", "_blank"); return; }
+    if (icon.id === "email") { window.open("mailto:della.lee@berkeley.edu", "_blank"); return; }
     onOpen(icon.id);
   };
 
