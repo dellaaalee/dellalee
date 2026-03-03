@@ -1,7 +1,8 @@
 {
-  "name": "my-app",
+  "name": "della",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://dellaaalee.github.io/dellalee/",
   "type": "module",
   "scripts": {
     "dev": "vite",
